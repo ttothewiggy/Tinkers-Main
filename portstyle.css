@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Lustria", Serif;
+  font-size: 48px;
+  src: url(https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lustria&display=swap);
+}
+
+body {
+  font-family: "Lustria", serif;
+  font-size: 16px;
+  background-image: url(pics/DSC02738.jpg);
+
+  background-size: 1920px 1080px, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #464646;
+
+  min-width: 1024px;
+  min-height: 100%;
+
+  width: 100%;
+  height: auto;
+
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-family: "Lustria", serif;
+  font-size: 45px;
+  color: black;
+  position: relative;
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Grid System */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  height: 1000px;
+}
+
+.secondwrapper {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  height: 1000px;
+  background-image: url(pics/DSC09786.jpeg);
+  background-size: 1920px 1080px, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.linkbox {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
